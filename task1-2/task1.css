@@ -1,0 +1,47 @@
+header {
+  display: flex;
+  background-color: black;
+  color: white;
+  justify-content: space-between;
+  height: 100px;
+  align-items: center;
+}
+
+a > img {
+  height: 30px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.div-header {
+  display: flex;
+  font-size: 40px;
+}
+
+li {
+  margin-bottom: 15px;
+  font-size: 50px;
+}
+
+ul {
+  margin-left: 30px;
+  list-style-image: url(../assets/task1-2/1.png);
+}
+
+.a {
+  filter: drop-shadow(4px 3px 0px pink);
+}
+
+.b {
+  background-color: blue;
+  color: white;
+  width: 100px;
+}
+
+.c {
+  text-decoration: line-through pink solid 4px;
+}
+
+.rocket::before {
+  content: "\f135";
+}

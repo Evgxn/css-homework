@@ -1,0 +1,14 @@
+.div {
+  height: 300px;
+  overflow: auto;
+}
+
+.first-img {
+  float: left;
+  height: 200px;
+}
+
+.second-img {
+  float: right;
+  height: 200px;
+}
