@@ -1,0 +1,24 @@
+.innodom{
+    --w: 300px;
+    --h: 100px;
+    --div-bg-color: #8398f8;
+    --jc: center;
+    --text-color: #fff;
+    --span-bg-color:#1937be;
+    --font-size: 40px;
+}
+
+.innodom{
+    display: flex;
+    height: var(--h);
+    width: var(--w);
+    background: var(--div-bg-color);
+    justify-content: var(--jc);
+    align-items: var(--jc);
+}
+
+span{
+    font-size: var(--font-size);
+    color: var(--text-color);
+    background: var(--span-bg-color);
+}
