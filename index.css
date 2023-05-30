@@ -3,10 +3,29 @@ body {
   font-size: 30px;
 }
 
-header {
-  height: 50px;
-  background: #c5e6ee;
+.css,
+.js {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+}
+.css-block {
+  background: #71ade6;
   padding-top: 20px;
+  padding-bottom: 20px;
+}
+.css {
+  margin-right: 15px;
+}
+
+.js-block {
+  background: #edf7cb;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.js {
+  margin-right: 15px;
 }
 
 a {
@@ -18,8 +37,8 @@ a {
   padding: 5px 10px;
 }
 
-a:hover{
-    color: white;
-    border: 1px solid #1283b8;
-    background: #1283b8;
+a:hover {
+  color: white;
+  border: 1px solid #3595c2;
+  background: #3595c2;
 }
