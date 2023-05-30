@@ -41,11 +41,13 @@ nav{
 main{
     margin-top: 30px;
 }
-.content{
-    display: flex;
-    align-items: center;
-    margin: 0 auto;
-    gap: 10px;
+@supports(display: flex){
+    .content{
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+        gap: 10px;
+    }
 }
 
 .hata{
