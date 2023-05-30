@@ -1,0 +1,52 @@
+.first__block{
+    width: 200px;
+    height: 100px;
+    background: #6c2ca0;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    transition: 3s ease-in-out;
+    transition-delay: 1s;
+    
+}
+
+.first__block:hover{
+    width: 500px;
+}
+
+@keyframes move{
+    0%{}
+    20%{
+        margin-left: 200px;
+        margin-top: 400px;
+        background: #1f0664;
+    }
+    50%{
+        margin-left: 300px;
+        margin-top: 300px;
+        background: #b11cb1;
+    }
+    80%{
+        margin-left: 200px;
+        margin-top: 400px;
+        background: #1f0664;
+    }
+    to{}
+}
+
+.second__block{
+    display: flex;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: #3340b4;
+    align-items: center;
+    color: white;
+    margin-top: 200px;
+    animation: 6s linear;
+    animation-name: move;
+}
+
+.second__block > span{
+    margin-left:65px;
+}
