@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+}
+.container{
+    margin: 0 auto;
+    width: 1000px;
+}
+
+header{
+    background: #8bebce;
+    width: 100%;
+}
+
+.Logo{
+    font-size: 20px;
+}
+
+nav{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list-links > a {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+}
+
+.list-links > a:hover{
+    color: blue;
+}
+
+.contact{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+main{
+    margin-top: 30px;
+}
+.content{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    gap: 10px;
+}
+
+.hata{
+    width: 100%;
+    height: 140px;
+    text-align: center;
+    border-top: 1px solid #49c954;
+    border-bottom: 1px solid #d19e9e;
+}
+
+@media screen and (max-width: 1000px){
+    .container{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 579px){
+    nav{
+        display: grid;
+        grid-column: 1fr;
+        text-align: center;
+    }
+
+    .content{
+        display: grid;
+    }
+
+    .hata{
+        width: 240px;
+    }
+    .container{
+        width: 241px;
+        margin: 0 auto;
+    }
+}
